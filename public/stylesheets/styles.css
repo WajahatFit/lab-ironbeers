@@ -5,3 +5,23 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+.sec-one{
+display: flex;
+flex-direction: column;
+
+}
+#nav-bar{
+    
+    display: flex;
+    background-color: #2081c3;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
