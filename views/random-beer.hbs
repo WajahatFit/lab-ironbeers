@@ -1,12 +1,5 @@
 <div>
    {{#each responseFromAPI}}
-       <img src="{{image_url}}" alt"{{name}}">
-       <h2>{{name}}</h2> 
-       <p>{{food_pairing}}</p>
-       <p>{{brewer-tips}}</p>
-        
-
-      {{else}}
-        <p>No beers yet!</p>
+       {{>beerpartial this}}
       {{/each}}
 </div>

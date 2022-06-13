@@ -1,9 +1,12 @@
 <div>
-    {{#each beersFromApi}}
+    {{#each responseFromAPI}}
     <h2>{{name}}</h2>
     <img src="{{img_url}}" alt="{{name}}">
     <p>name: {{name}}</p>
     <p>description: {{description}} </p>
+    <h4>Food Pairing</h4>
+    <p>{{food_pairing}}</p>
+    <p>Brewers Tips: {{brewer-tips}}</p>
     <p>Tag Line: {{tagline}}</p>
     
 
